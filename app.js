@@ -17,7 +17,7 @@ app.post('/product',(req,res,next)=>{
 
 
 app.use('/',(req,res,next)=>{
-    res.send('<h1>Hello from express</h1>');
+    res.send('<h1>Hello from express</h1>')
 });
 
 app.listen(4000);
